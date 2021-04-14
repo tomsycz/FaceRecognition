@@ -1,0 +1,53 @@
+.form {
+  width: 700px;
+  background: radial-gradient(
+        circle farthest-side at 0% 50%,
+        #f16529 23.5%,
+        rgba(240, 166, 17, 0) 0
+      )
+      21px 30px,
+    radial-gradient(
+        circle farthest-side at 0% 50%,
+        #4d3e48 24%,
+        rgba(240, 166, 17, 0) 0
+      )
+      19px 30px,
+    linear-gradient(
+        #f16529 14%,
+        rgba(240, 166, 17, 0) 0,
+        rgba(240, 166, 17, 0) 85%,
+        #f16529 0
+      )
+      0 0,
+    linear-gradient(
+        150deg,
+        #f16529 24%,
+        #4d3e48 0,
+        #4d3e48 26%,
+        rgba(240, 166, 17, 0) 0,
+        rgba(240, 166, 17, 0) 74%,
+        #4d3e48 0,
+        #4d3e48 76%,
+        #f16529 0
+      )
+      0 0,
+    linear-gradient(
+        30deg,
+        #f16529 24%,
+        #4d3e48 0,
+        #4d3e48 26%,
+        rgba(240, 166, 17, 0) 0,
+        rgba(240, 166, 17, 0) 74%,
+        #4d3e48 0,
+        #4d3e48 76%,
+        #f16529 0
+      )
+      0 0,
+    linear-gradient(90deg, #4d3e48 2%, #f16529 0, #f16529 98%, #4d3e48 0%) 0 0 #f16529;
+  background-size: 40px 60px;
+}
+.bg-button {
+  background-color: #ca3d00;
+}
+
+

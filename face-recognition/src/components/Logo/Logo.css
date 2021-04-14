@@ -1,0 +1,27 @@
+.Tilt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+ background: #ff4b1f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #e25825, #ff4b1f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #e25825, #ff4b1f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
+  /* border: 5px solid black; */
+  border-radius: 0px;
+
+  transform-style: preserve-3d;
+}
+.inner-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  font-style: italic;
+  color: white;
+  transform: translateZ(30px);
+}
