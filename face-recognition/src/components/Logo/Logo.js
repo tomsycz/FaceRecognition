@@ -18,7 +18,6 @@ const Logo = () => {
         glareBorderRadius="5px"
       >
         <div className="inner-element pa3">
-          
           <img style={{ paddingTop: "5px" }} src={face} alt="logo" />
         </div>
       </Tilt>
