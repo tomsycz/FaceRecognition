@@ -85,7 +85,6 @@ class App extends Component {
     return clarifaiBoxes;
   };
 
-
   displayFaceBoxes = boxesArr => {
     this.setState({ boxesArr });
   };
@@ -143,10 +142,7 @@ class App extends Component {
               onButtonSubmit={this.onButtonSubmit}
               onInputChange={this.onInputChange}
             />
-            <FaceRecognition
-              boxesArr={boxesArr}
-              imageUrl={imageUrl}
-            />
+            <FaceRecognition boxesArr={boxesArr} imageUrl={imageUrl} />
           </div>
         ) : (
           <Register
