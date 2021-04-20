@@ -16,7 +16,7 @@ class Signin extends React.Component {
     this.setState({ signInPassword: event.target.value });
   };
   onSubmitSignIn = () => {
-    fetch("http://localhost:3000/signin", {
+    fetch("https://hidden-falls-88895.herokuapp.com/signin", {
       method: "post",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -28,7 +28,6 @@ class Signin extends React.Component {
       .then(data => {
         if (data.id) {
           this.props.loadUser(data);
-          console.log(data);
           this.props.onRouteChange("home");
         }
       });
